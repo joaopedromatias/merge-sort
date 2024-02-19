@@ -24,6 +24,7 @@ Different from the quick sort algorithm, in merge sort the array is always split
 ```
 
 64 items are processed along the sorting of all the arrays, following a n log(n) complexity
+
 **`n log(n) = 16 * log2(16) = 64`**
 
 2. Splitting a 16 size array by one value (worst case of quick sort, when the array is already sorted)
@@ -45,4 +46,5 @@ Different from the quick sort algorithm, in merge sort the array is always split
 ```
 
 135 items are processed along the sorting of all the arrays, following a quadratic time complexity
+
 **`(n (n - 1)) / 2 = (n^2 - n) / 2 = (16^2 - 16) / 2 = 120 (roughly 135)`**
