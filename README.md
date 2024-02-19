@@ -11,7 +11,7 @@ The original array is sorted by merging its two sorted halves, which were sorted
 
 Different from the quick sort algorithm, in merge sort the array is always splitted in half, which optimizes the time complexity as shown below.
 
-1. Splitting a 16 size array in half (always the case for merge sort)
+Splitting a 16 size array in half (always the case for merge sort)
 
 ```js
                16              //  ---> 16 items processed
@@ -27,7 +27,7 @@ Different from the quick sort algorithm, in merge sort the array is always split
 
 **`n log(n) = 16 * log2(16) = 64`**
 
-2. Splitting a 16 size array by one value (worst case of quick sort, when the array is already sorted)
+Splitting a 16 size array by one value (worst case of quick sort, when the array is already sorted)
 
 ```js
                   16    //  ---> 16 items sorted
